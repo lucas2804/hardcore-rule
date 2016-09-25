@@ -1,9 +1,9 @@
 ###**_Elasticsearch_**
 
-**1 - Deal with Ealasticsearch**
+**1 - Capabilities in Ealasticsearch**
 
 - Suggest relevant words, avoid typo, the best suggestion at very first time
-- full-text searches and real-time statistic
+- Full-text searches and real-time statistic
 - scalable by default.
 
 **2 - Adapt with**
@@ -70,7 +70,7 @@ _Insert your own algorithms, search on title first..._
 #####_**Using Elasticsearch  as the primary back end**_
 
 - Tradeoff: As other NoSQL data stores, Elasticsearch doesn't support transaction. 
-```WebApplication -> Insear/Update Elasticsearch```.
+```WebApplication -> Insert/Update Elasticsearch```.
 
 #####_**Adding Elasticsearch to an existing system**_
 - So Adding another relational database as the "source of truth" is a good practice.
