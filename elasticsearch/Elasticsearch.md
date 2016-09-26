@@ -48,6 +48,8 @@
 
 ```faster + relevant = disk_space + slower_when_add_new_for_index```
 
+![Concepts Document-Type-Index](./images/inverted_index.png)
+
 #####**How do you know which "Ruby" book is relevant more than thousands ones**
 
 - Yes, that's right?, score it to evaluate with TF-IDF algorithm
