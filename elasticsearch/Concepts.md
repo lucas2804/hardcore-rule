@@ -2,7 +2,7 @@
 
 ####_**1 - Document**_
 
-- Document(JSON) as a row in DB, smallest unit of data you index. 
+- Document(JSON) as a **row** in DB, smallest unit of data that you be able to index. 
 ```javascript
 event: {
   "name": "Event Elasticsearch Developer",
@@ -15,11 +15,11 @@ event: {
 ```
 ####_**2 - Type**_
 
-- Type as table in DB.(as _event_, _location_, _string_, _float_...)
+- Type as **table** in DB.(as _event_, _location_, _string_, _float_...)
 
 ####_**3 - Index**_
 
-- Index is biggest container as Database
+- Index is biggest container as **Database**
 
 ![Concepts Document-Type-Index](./images/concepts1.png)
 

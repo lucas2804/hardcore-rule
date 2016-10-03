@@ -23,7 +23,7 @@ Example: _**Given**_ some context, _**When**_ some event occurs, _**Then**_ I ex
 
 **DO NOT WRONG ASSUME**
 
-- TDD is good, right?
+- TDD with Unit-testing is good, right?
 - But still not be able to replace acceptance testing from QA.
 - But won't solve all of your development problems.
 
