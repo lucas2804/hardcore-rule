@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="file://$PROJECT_DIR$/elasticsearch/elasticsearch-kopf" libraries="{hardcore-rule/elasticsearch/elasticsearch-kopf/node_modules}" />
+    <file url="file://$PROJECT_DIR$/elasticsearch/kibana/kibana-4.6.1" libraries="{hardcore-rule/elasticsearch/kibana/kibana-4.6.1/node_modules}" />
   </component>
 </project>

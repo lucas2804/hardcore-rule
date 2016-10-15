@@ -136,7 +136,7 @@ export ES_HEAP_SIZE=500m; bin/elasticsearch
 
 - 4 shards just only distributed maximum by 4 nodes
 
-- **Increase the number of shards just only increase the number of concurrent searches** your cluster can server 
+- **Increase the number of shards just only increase the number of concurrent searches** your cluster can serve 
 
 - **round-robin** aggregates results from set of shards and response once.
 

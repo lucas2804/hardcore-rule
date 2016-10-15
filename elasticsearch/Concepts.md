@@ -25,7 +25,11 @@ event: {
 
 ####_**4 - Shard**_
 
-- 1 index(database) made up 5 primary shards, 5 primary shards clone to 5 replica shards -> Total 10 shards(10 databases).
+- 1 index(database) made up 5 primary shards, 5 primary shards clone to 5 replica shards -> Total 10 shards(**2** databases).
+
+Note: Disk limit is 1 TB and an index exceeds 1 TB.
+-> These break the index into multiple shards.
+-> Each shards acts as an **independent index**
 
 ####_**5 - Node**_
 
@@ -37,7 +41,26 @@ event: {
 ![Concepts Shards](./images/concept_shards.png)
 
 
+```
+| MySQL         | Elasticsearch     |
+| ---           | ---               |
+| Databases     | Indexes           |
+| Tables        | Types             |
+| Colums/Rows   | Documents with Fields|
+```
 
+
+
+
+#### Inverted Index
+
+1) Instead of searching text, it searches for an index 
+
+- i am learning Kibana
+- Kibana is an amazing product
+- Kibana is easy to use
+
+![inverted-index.png](./images/inverted-index.png)
 
 
 
