@@ -87,19 +87,19 @@ References: www.lucenetutorial.com/lucene-query-syntax.html
 
 ###Use case
 
-1) Searchbox: 
+- 1) Searchbox: 
     - Use match/simple_query_string in specific fields
-2) Search as phrase: 
+- 2) Search as phrase: 
     - Use match_phrase
-3) Search in not_analyzed field:  
+- 3) Search in not_analyzed field:  
     - Use term query(not analyzed)
-4) Combine many diff searches of types of search: 
+- 4) Combine many diff searches of types of search: 
     - Use **bool** query
-5) Search words on many fields:
+- 5) Search words on many fields:
     - Use **multi_match**
-6) Search documents that have no value for field:
+- 6) Search documents that have no value for field:
     - Use **missing** filter
-7) Autocomplete, match string: 
+- 7) Autocomplete, match string: 
     - Use **prefix, wildcard** 
 
 

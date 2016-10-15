@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="032c0dba-69a1-4aed-b1a9-cd565d80bb42" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bdd-test-prescriptions-ebook/5-testing-models.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bdd-test-prescriptions-ebook/test_types.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch/4-searching-your-data.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch/kibana.md" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch/elasticsearch-kopf" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/hardcore-rule.iml" afterPath="$PROJECT_DIR$/.idea/hardcore-rule.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch/kibana" afterPath="$PROJECT_DIR$/elasticsearch/kibana" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch/CURD-configuring.md" afterPath="$PROJECT_DIR$/elasticsearch/CURD-configuring.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch/Concepts.md" afterPath="$PROJECT_DIR$/elasticsearch/Concepts.md" />
     </list>
     <ignored path="hardcore-rule.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -138,17 +130,17 @@
       <file leaf-file-name="4-searching-your-data.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/elasticsearch/4-searching-your-data.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SECOND">
-              <first_editor relative-caret-position="483">
-                <caret line="51" column="53" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="53" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="294">
+                <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
                 <folding>
-                  <marker date="1476520288000" expanded="true" signature="1246:1537" ph="{...}" />
-                  <marker date="1476520288000" expanded="true" signature="1264:1533" ph="{...}" />
-                  <marker date="1476520288000" expanded="true" signature="1281:1314" ph="{...}" />
-                  <marker date="1476520288000" expanded="true" signature="1332:1527" ph="{...}" />
-                  <marker date="1476520288000" expanded="true" signature="1352:1519" ph="{...}" />
-                  <marker date="1476520288000" expanded="true" signature="1374:1483" ph="{...}" />
-                  <marker date="1476520288000" expanded="true" signature="1405:1470" ph="{...}" />
+                  <marker date="1476531161000" expanded="true" signature="1246:1537" ph="{...}" />
+                  <marker date="1476531161000" expanded="true" signature="1264:1533" ph="{...}" />
+                  <marker date="1476531161000" expanded="true" signature="1281:1314" ph="{...}" />
+                  <marker date="1476531161000" expanded="true" signature="1332:1527" ph="{...}" />
+                  <marker date="1476531161000" expanded="true" signature="1352:1519" ph="{...}" />
+                  <marker date="1476531161000" expanded="true" signature="1374:1483" ph="{...}" />
+                  <marker date="1476531161000" expanded="true" signature="1405:1470" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -421,12 +413,12 @@
       <workItem from="1476292184079" duration="543000" />
       <workItem from="1476324276655" duration="16000" />
       <workItem from="1476324311857" duration="115000" />
-      <workItem from="1476504589514" duration="5036000" />
+      <workItem from="1476504589514" duration="5373000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43915000" />
+    <option name="totallyTimeSpent" value="44252000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="615" height="1050" extended-state="6" />
@@ -1015,17 +1007,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/elasticsearch/4-searching-your-data.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="483">
-            <caret line="51" column="53" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="53" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="294">
+            <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
             <folding>
-              <marker date="1476520288000" expanded="true" signature="1246:1537" ph="{...}" />
-              <marker date="1476520288000" expanded="true" signature="1264:1533" ph="{...}" />
-              <marker date="1476520288000" expanded="true" signature="1281:1314" ph="{...}" />
-              <marker date="1476520288000" expanded="true" signature="1332:1527" ph="{...}" />
-              <marker date="1476520288000" expanded="true" signature="1352:1519" ph="{...}" />
-              <marker date="1476520288000" expanded="true" signature="1374:1483" ph="{...}" />
-              <marker date="1476520288000" expanded="true" signature="1405:1470" ph="{...}" />
+              <marker date="1476531161000" expanded="true" signature="1246:1537" ph="{...}" />
+              <marker date="1476531161000" expanded="true" signature="1264:1533" ph="{...}" />
+              <marker date="1476531161000" expanded="true" signature="1281:1314" ph="{...}" />
+              <marker date="1476531161000" expanded="true" signature="1332:1527" ph="{...}" />
+              <marker date="1476531161000" expanded="true" signature="1352:1519" ph="{...}" />
+              <marker date="1476531161000" expanded="true" signature="1374:1483" ph="{...}" />
+              <marker date="1476531161000" expanded="true" signature="1405:1470" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
