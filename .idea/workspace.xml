@@ -2,8 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="032c0dba-69a1-4aed-b1a9-cd565d80bb42" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch/images/analysis-api.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch/images/analyzer-config-file.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch/images/analyzing1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/antipatterns/3views.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch/5-Analyzing.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/linux/1-basic_command.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metaprograming/block.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metaprograming/constant_example.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metaprograming/eloquent_ruby.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metaprograming/httparty_api/tests.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metaprograming/meta_global.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metaprograming/meta_scope.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metaprograming/metaprograming_class_module.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metaprograming/proc_lambda.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/postgreSQL/introduce.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rails4inAction/auth.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rails4inAction/db_active_record.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rails4inAction/devise_custom.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rails4inAction/pundit.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rails4inAction/test_way.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vagrant_hemingway/.bash_profile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vagrant_hemingway/WT-3299.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vagrant_hemingway/vagrant.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bdd-test-prescriptions-ebook/introduction.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bdd-test-prescriptions-ebook/rspec-over-view.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bdd-test-prescriptions-ebook/test_types.md" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/elasticsearch/4-searching-your-data.md" afterPath="$PROJECT_DIR$/elasticsearch/4-Searching.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/elasticsearch/CURD-configuring.md" afterPath="$PROJECT_DIR$/elasticsearch/2-CURD-configuring.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/elasticsearch/Concepts.md" afterPath="$PROJECT_DIR$/elasticsearch/1-Concepts.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/elasticsearch/Deep-CURD.md" afterPath="$PROJECT_DIR$/elasticsearch/3-Deep-CURD.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/elasticsearch/Elasticsearch.md" afterPath="$PROJECT_DIR$/elasticsearch/0-Elasticsearch.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch/kibana" afterPath="$PROJECT_DIR$/elasticsearch/kibana" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bdd-test-prescriptions-ebook/tips.md" afterPath="$PROJECT_DIR$/bdd-test-prescriptions-ebook/tips.md" />
     </list>
     <ignored path="hardcore-rule.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -18,20 +51,30 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="hardcore-rule" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Concepts.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/elasticsearch/Concepts.md">
+      <file leaf-file-name="5-Analyzing.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/elasticsearch/5-Analyzing.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-644">
-                <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+              <first_editor relative-caret-position="598">
+                <caret line="306" column="3" selection-start-line="306" selection-start-column="3" selection-end-line="306" selection-end-column="3" />
                 <folding>
-                  <marker date="1476020991000" expanded="true" signature="149:314" ph="{...}" />
-                  <marker date="1476020991000" expanded="true" signature="230:312" ph="{...}" />
+                  <marker date="1477417656000" expanded="true" signature="797:867" ph="{...}" />
+                  <marker date="1477417656000" expanded="true" signature="797:2186" ph="{...}" />
+                  <marker date="1477417656000" expanded="true" signature="7570:7599" ph="..." />
+                  <marker date="1477417656000" expanded="true" signature="7570:7602" ph="..." />
                 </folding>
               </first_editor>
               <second_editor />
@@ -39,25 +82,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Deep-CURD.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/elasticsearch/Deep-CURD.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SECOND">
-              <first_editor relative-caret-position="-1064">
-                <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="populate.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elasticsearch/elasticsearch-in-action/populate.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kibana.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/elasticsearch/kibana.md">
+      <file leaf-file-name="tips.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/tips.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="441">
-                <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -65,35 +105,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rspec-over-view.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/rspec-over-view.md">
+      <file leaf-file-name="WT-3299.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vagrant_hemingway/WT-3299.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="357">
-                <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-                <folding>
-                  <marker date="1474982231000" expanded="true" signature="371:398" ph="{ ... }" />
-                  <marker date="1474982231000" expanded="true" signature="446:492" ph=" ... end" />
-                  <marker date="1474982231000" expanded="true" signature="669:899" ph="do ... end" />
-                  <marker date="1474982231000" expanded="true" signature="686:710" ph="{ ... }" />
-                  <marker date="1474982231000" expanded="true" signature="727:752" ph="{ ... }" />
-                  <marker date="1474982231000" expanded="true" signature="759:851" ph="##..." />
-                  <marker date="1474982231000" expanded="true" signature="866:891" ph="{ ... }" />
-                  <marker date="1474982231000" expanded="true" signature="943:970" ph=" ... end" />
-                  <marker date="1474982231000" expanded="true" signature="1297:1314" ph=" ... end" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="introduction.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/introduction.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="735">
-                <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <first_editor relative-caret-position="609">
+                <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -101,59 +118,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_types.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/test_types.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="504">
-                <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CURD-configuring.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/elasticsearch/CURD-configuring.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SECOND">
-              <first_editor relative-caret-position="147">
-                <caret line="83" column="51" selection-start-line="83" selection-start-column="48" selection-end-line="83" selection-end-column="51" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="4-searching-your-data.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/elasticsearch/4-searching-your-data.md">
+      <file leaf-file-name="1-basic_command.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/linux/1-basic_command.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="294">
-                <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-                <folding>
-                  <marker date="1476531161000" expanded="true" signature="1246:1537" ph="{...}" />
-                  <marker date="1476531161000" expanded="true" signature="1264:1533" ph="{...}" />
-                  <marker date="1476531161000" expanded="true" signature="1281:1314" ph="{...}" />
-                  <marker date="1476531161000" expanded="true" signature="1332:1527" ph="{...}" />
-                  <marker date="1476531161000" expanded="true" signature="1352:1519" ph="{...}" />
-                  <marker date="1476531161000" expanded="true" signature="1374:1483" ph="{...}" />
-                  <marker date="1476531161000" expanded="true" signature="1405:1470" ph="{...}" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Elasticsearch.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/elasticsearch/Elasticsearch.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SECOND">
-              <first_editor relative-caret-position="280">
-                <caret line="105" column="1" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
+              <first_editor relative-caret-position="315">
+                <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -171,9 +141,14 @@
       <list>
         <option value="$PROJECT_DIR$/elasticsearch/Deep-CURD.md" />
         <option value="$PROJECT_DIR$/bdd-test-prescriptions-ebook/test_types.md" />
-        <option value="$PROJECT_DIR$/elasticsearch/Concepts.md" />
         <option value="$PROJECT_DIR$/elasticsearch/kibana.md" />
         <option value="$PROJECT_DIR$/elasticsearch/4-searching-your-data.md" />
+        <option value="$PROJECT_DIR$/elasticsearch/Concepts.md" />
+        <option value="$PROJECT_DIR$/elasticsearch/4-Searching.md" />
+        <option value="$PROJECT_DIR$/blurb/WT-3299.md" />
+        <option value="$PROJECT_DIR$/linux/1-basic_command.md" />
+        <option value="$PROJECT_DIR$/linux/1-WhyUnix.md" />
+        <option value="$PROJECT_DIR$/elasticsearch/5-Analyzing.md" />
       </list>
     </option>
   </component>
@@ -184,14 +159,15 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/elasticsearch/kibana/kibana-4.6.1/installedPlugins/sense/node_modules" />
     <handled-path value="$PROJECT_DIR$/elasticsearch/kibana/kibana-4.6.1/node/lib/node_modules" />
     <handled-path value="$PROJECT_DIR$/elasticsearch/kibana/kibana-4.6.1/node_modules" />
     <handled-path value="$PROJECT_DIR$/elasticsearch/kibana/kibana-4.6.1/optimize/bundles/node_modules" />
     <handled-path value="$PROJECT_DIR$/elasticsearch/kibana/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="615" />
-    <option name="height" value="1050" />
+    <option name="width" value="700" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -238,38 +214,7 @@
     </navigator>
     <panes>
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hardcore-rule" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hardcore-rule" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hardcore-rule" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hardcore-rule" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hardcore-rule" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="elasticsearch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
       <pane id="Scope">
         <subPane subId="Problems" />
@@ -290,6 +235,12 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="SearchEverywhereHistoryKey" value="4-&#9;FILE&#9;file:///Users/luc/ruby/ruby_projects/miracle/BDDRailsV1/app/models/hardcore-rule/elasticsearch/4-searching-your-data.md&#10;c4&#9;FILE&#9;file:///Users/luc/ruby/ruby_projects/miracle/BDDRailsV1/app/models/hardcore-rule/elasticsearch/images/c4-search-basic.png" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/blurb/vagrant_hemingway" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
@@ -413,26 +364,29 @@
       <workItem from="1476292184079" duration="543000" />
       <workItem from="1476324276655" duration="16000" />
       <workItem from="1476324311857" duration="115000" />
-      <workItem from="1476504589514" duration="5373000" />
+      <workItem from="1476504589514" duration="12905000" />
+      <workItem from="1476592952920" duration="8258000" />
+      <workItem from="1477318486336" duration="6630000" />
+      <workItem from="1477414308078" duration="3454000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44252000" />
+    <option name="totallyTimeSpent" value="70126000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="615" height="1050" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="700" height="900" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3089431" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16428572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47368422" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40298507" sideWeight="0.49722221" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6643275" sideWeight="0.49722221" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Code comment" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -463,94 +417,24 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/elasticsearch/elasticsearch-in-action/populate.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch/elasticsearch-in-action/mapping.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch/Concepts.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1476020991000" expanded="true" signature="149:314" ph="{...}" />
-              <marker date="1476020991000" expanded="true" signature="230:312" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/elasticsearch/kibana.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="336">
             <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/rspec-over-view.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="357">
-            <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-            <folding>
-              <marker date="1474982231000" expanded="true" signature="371:398" ph="{ ... }" />
-              <marker date="1474982231000" expanded="true" signature="446:492" ph=" ... end" />
-              <marker date="1474982231000" expanded="true" signature="669:899" ph="do ... end" />
-              <marker date="1474982231000" expanded="true" signature="686:710" ph="{ ... }" />
-              <marker date="1474982231000" expanded="true" signature="727:752" ph="{ ... }" />
-              <marker date="1474982231000" expanded="true" signature="759:851" ph="##..." />
-              <marker date="1474982231000" expanded="true" signature="866:891" ph="{ ... }" />
-              <marker date="1474982231000" expanded="true" signature="943:970" ph=" ... end" />
-              <marker date="1474982231000" expanded="true" signature="1297:1314" ph=" ... end" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/introduction.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="735">
-            <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/test_types.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="966">
-            <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch/CURD-configuring.md">
+    <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/rspec-over-view.md" />
+    <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/introduction.md" />
+    <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/test_types.md" />
+    <entry file="file://$PROJECT_DIR$/elasticsearch/2-CURD-configuring.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="2331">
             <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -573,103 +457,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch/Concepts.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1476020991000" expanded="true" signature="149:314" ph="{...}" />
-              <marker date="1476020991000" expanded="true" signature="230:312" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch/kibana.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="336">
-            <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/rspec-over-view.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="357">
-            <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-            <folding>
-              <marker date="1474982231000" expanded="true" signature="371:398" ph="{ ... }" />
-              <marker date="1474982231000" expanded="true" signature="446:492" ph=" ... end" />
-              <marker date="1474982231000" expanded="true" signature="669:899" ph="do ... end" />
-              <marker date="1474982231000" expanded="true" signature="686:710" ph="{ ... }" />
-              <marker date="1474982231000" expanded="true" signature="727:752" ph="{ ... }" />
-              <marker date="1474982231000" expanded="true" signature="759:851" ph="##..." />
-              <marker date="1474982231000" expanded="true" signature="866:891" ph="{ ... }" />
-              <marker date="1474982231000" expanded="true" signature="943:970" ph=" ... end" />
-              <marker date="1474982231000" expanded="true" signature="1297:1314" ph=" ... end" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/introduction.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="735">
-            <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/test_types.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="966">
-            <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch/CURD-configuring.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="2331">
-            <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch/elasticsearch-in-action/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch/elasticsearch-in-action/populate.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch/Deep-CURD.md">
+    <entry file="file://$PROJECT_DIR$/elasticsearch/3-Deep-CURD.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="210">
@@ -679,61 +467,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/rspec-over-view.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="357">
-            <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-            <folding>
-              <marker date="1474982231000" expanded="true" signature="371:398" ph="{ ... }" />
-              <marker date="1474982231000" expanded="true" signature="446:492" ph=" ... end" />
-              <marker date="1474982231000" expanded="true" signature="669:899" ph="do ... end" />
-              <marker date="1474982231000" expanded="true" signature="686:710" ph="{ ... }" />
-              <marker date="1474982231000" expanded="true" signature="727:752" ph="{ ... }" />
-              <marker date="1474982231000" expanded="true" signature="759:851" ph="##..." />
-              <marker date="1474982231000" expanded="true" signature="866:891" ph="{ ... }" />
-              <marker date="1474982231000" expanded="true" signature="943:970" ph=" ... end" />
-              <marker date="1474982231000" expanded="true" signature="1297:1314" ph=" ... end" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/introduction.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="735">
-            <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/test_types.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch/CURD-configuring.md">
+    <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/rspec-over-view.md" />
+    <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/introduction.md" />
+    <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/test_types.md" />
+    <entry file="file://$PROJECT_DIR$/elasticsearch/2-CURD-configuring.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="2982">
             <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch/Deep-CURD.md">
+    <entry file="file://$PROJECT_DIR$/elasticsearch/3-Deep-CURD.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="210">
@@ -743,61 +490,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/rspec-over-view.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="357">
-            <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-            <folding>
-              <marker date="1474982231000" expanded="true" signature="371:398" ph="{ ... }" />
-              <marker date="1474982231000" expanded="true" signature="446:492" ph=" ... end" />
-              <marker date="1474982231000" expanded="true" signature="669:899" ph="do ... end" />
-              <marker date="1474982231000" expanded="true" signature="686:710" ph="{ ... }" />
-              <marker date="1474982231000" expanded="true" signature="727:752" ph="{ ... }" />
-              <marker date="1474982231000" expanded="true" signature="759:851" ph="##..." />
-              <marker date="1474982231000" expanded="true" signature="866:891" ph="{ ... }" />
-              <marker date="1474982231000" expanded="true" signature="943:970" ph=" ... end" />
-              <marker date="1474982231000" expanded="true" signature="1297:1314" ph=" ... end" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/introduction.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="735">
-            <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/test_types.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch/CURD-configuring.md">
+    <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/rspec-over-view.md" />
+    <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/introduction.md" />
+    <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/test_types.md" />
+    <entry file="file://$PROJECT_DIR$/elasticsearch/2-CURD-configuring.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="2982">
             <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch/Deep-CURD.md">
+    <entry file="file://$PROJECT_DIR$/elasticsearch/3-Deep-CURD.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -807,18 +513,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch/CURD-configuring.md">
+    <entry file="file://$PROJECT_DIR$/elasticsearch/2-CURD-configuring.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="2982">
             <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch/Deep-CURD.md">
+    <entry file="file://$PROJECT_DIR$/elasticsearch/3-Deep-CURD.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -828,32 +533,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/rspec-over-view.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1071">
-            <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/introduction.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="483">
-            <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch/CURD-configuring.md">
+    <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/rspec-over-view.md" />
+    <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/introduction.md" />
+    <entry file="file://$PROJECT_DIR$/elasticsearch/2-CURD-configuring.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="1281">
             <caret line="61" column="3" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -865,13 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1638">
           <caret line="78" column="8" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch/elasticsearch-in-action/populate.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -904,69 +583,14 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/rspec-over-view.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="357">
-            <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-            <folding>
-              <marker date="1474982231000" expanded="true" signature="371:398" ph="{ ... }" />
-              <marker date="1474982231000" expanded="true" signature="446:492" ph=" ... end" />
-              <marker date="1474982231000" expanded="true" signature="669:899" ph="do ... end" />
-              <marker date="1474982231000" expanded="true" signature="686:710" ph="{ ... }" />
-              <marker date="1474982231000" expanded="true" signature="727:752" ph="{ ... }" />
-              <marker date="1474982231000" expanded="true" signature="759:851" ph="##..." />
-              <marker date="1474982231000" expanded="true" signature="866:891" ph="{ ... }" />
-              <marker date="1474982231000" expanded="true" signature="943:970" ph=" ... end" />
-              <marker date="1474982231000" expanded="true" signature="1297:1314" ph=" ... end" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/introduction.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="735">
-            <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/test_types.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="504">
-            <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch/Concepts.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-644">
-            <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-            <folding>
-              <marker date="1476020991000" expanded="true" signature="149:314" ph="{...}" />
-              <marker date="1476020991000" expanded="true" signature="230:312" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch/Elasticsearch.md">
+    <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/rspec-over-view.md" />
+    <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/introduction.md" />
+    <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/test_types.md" />
+    <entry file="file://$PROJECT_DIR$/elasticsearch/0-Elasticsearch.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
           <first_editor relative-caret-position="280">
             <caret line="105" column="1" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -977,47 +601,119 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="441">
             <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch/Deep-CURD.md">
+    <entry file="file://$PROJECT_DIR$/elasticsearch/2-CURD-configuring.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="233">
+            <caret line="106" column="41" selection-start-line="106" selection-start-column="41" selection-end-line="106" selection-end-column="41" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch/4-Searching.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="210">
+            <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch/1-Concepts.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="196">
+            <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch/3-Deep-CURD.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
           <first_editor relative-caret-position="-1064">
             <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch/CURD-configuring.md">
+    <entry file="file://$PROJECT_DIR$/blurb/fix_errors.md" />
+    <entry file="file://$PROJECT_DIR$/vagrant_hemingway/vagrant.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blurb/confluence.md" />
+    <entry file="file://$PROJECT_DIR$/blurb/bash_profile.md" />
+    <entry file="file://$PROJECT_DIR$/vagrant_hemingway/WT-3299.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="147">
-            <caret line="83" column="51" selection-start-line="83" selection-start-column="48" selection-end-line="83" selection-end-column="51" />
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="609">
+            <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch/4-searching-your-data.md">
+    <entry file="file://$PROJECT_DIR$/blurb/note.md" />
+    <entry file="file://$PROJECT_DIR$/linux/1-WhyUnix.md" />
+    <entry file="file://$PROJECT_DIR$/linux/1-basic_command.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="294">
-            <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <first_editor relative-caret-position="315">
+            <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch/elasticsearch-in-action/populate.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bdd-test-prescriptions-ebook/tips.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch/images/steming.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch/5-Analyzing.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="598">
+            <caret line="306" column="3" selection-start-line="306" selection-start-column="3" selection-end-line="306" selection-end-column="3" />
             <folding>
-              <marker date="1476531161000" expanded="true" signature="1246:1537" ph="{...}" />
-              <marker date="1476531161000" expanded="true" signature="1264:1533" ph="{...}" />
-              <marker date="1476531161000" expanded="true" signature="1281:1314" ph="{...}" />
-              <marker date="1476531161000" expanded="true" signature="1332:1527" ph="{...}" />
-              <marker date="1476531161000" expanded="true" signature="1352:1519" ph="{...}" />
-              <marker date="1476531161000" expanded="true" signature="1374:1483" ph="{...}" />
-              <marker date="1476531161000" expanded="true" signature="1405:1470" ph="{...}" />
+              <marker date="1477417656000" expanded="true" signature="797:867" ph="{...}" />
+              <marker date="1477417656000" expanded="true" signature="797:2186" ph="{...}" />
+              <marker date="1477417656000" expanded="true" signature="7570:7599" ph="..." />
+              <marker date="1477417656000" expanded="true" signature="7570:7602" ph="..." />
             </folding>
           </first_editor>
           <second_editor />

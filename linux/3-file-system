@@ -1,0 +1,72 @@
+###Your Home Directory
+
+- **cd ~: home directory** is place where you open Terminal
+    echo $HOME -> /Users/luc
+
+- **cd /: root directory** /
+
+- /etc /bin /sbin /usr /sbin contain UNIX system files
+
+###File Permissions
+
+- **owner**: Who create this files/folder
+
+file-permissions1.png
+
+Example: .DS_Store -|rw-|r--|r--
+1) -   : plain text (if d mean directory)
+2) rw- : read+write apply for onwer(luc)
+3) r-- : read apply for other users belong to file's group
+4) r-- : read apply for other users of system
+
+- chmod 777: apply for files/folders
+- chmod -R 777: apply for recursive of files/folders
+
+- du -sh: file size, -sh for human readable (4.0K greet.js)
+
+###Protecting and Sharing Files
+
+- All users in a group **can read** documents stored by their manager
+
+####Directors's access permissions
+
+- A user has **read** permission for dir can run see (ls).
+- A user has **write** permission for dir can add, rename, delete files in directory
+- A user has **execute** permission for dir can access dir then do somethings as read/write the files...)
+
+Example in Unix:
+
+- --- user can not access the directory
+- r-x user be able to access with read-only permission
+- rwx user be able to access read and write permission
+
+####Files's access permissions
+
+**Abbreation**:
+1) u: user(owner), g: group, o: others, a: all
+2) +: add permission, -: remove permission, =: equal, assign
+
+- Files often do not have **execute** permission except script files, program files.
+- chmod a-w <filename>: remove write permission apply for all
+- chmod u+w <filename>: add write permission for owner
+- chomod ug=rw *: add r+w to owner and group apply for * files
+
+###Chaning the Group an Owner
+
+- In smaller area you are super admin of what folder that you've created
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
