@@ -50,8 +50,6 @@ Note: Disk limit is 1 TB and an index exceeds 1 TB.
 ```
 
 
-
-
 #### Inverted Index
 
 1) Instead of searching text, it searches for an index 

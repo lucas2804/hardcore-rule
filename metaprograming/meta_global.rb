@@ -30,3 +30,6 @@ puts $var.object_id           #70315145360820
 # puts another_scope.object_id  #70315145360820
 # puts local_var.object_id           #70315145360820
 #
+
+
+

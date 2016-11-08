@@ -70,3 +70,13 @@ project-format-id: 12330701 (2016-08-16 19:47:19 INFO Attempting to assign isbn 
 ![81-re-feed-xml02.png](./images/wt4810/81-re-feed-xml02.png)
 
 ![81-re-feed-01.png](./images/wt4810/81-re-feed-01.png)
+
+
+####Manual test
+- Before
+![4810-before1.png](./images/wt4810/4810-before1.png)
+![4810-before2.png](./images/wt4810/4810-before2.png)
+
+- After
+![4810-after01](./images/wt4810/4810-after01.png)
+![4810-after02](./images/wt4810/4810-after02.png)
