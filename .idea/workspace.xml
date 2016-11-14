@@ -2,41 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="032c0dba-69a1-4aed-b1a9-cd565d80bb42" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch/images/analysis-api.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch/images/analyzer-config-file.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch/images/analyzing1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/antipatterns/3views.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch/5-Analyzing.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/linux/1-basic_command.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metaprograming/block.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metaprograming/constant_example.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metaprograming/eloquent_ruby.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metaprograming/httparty_api/tests.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metaprograming/meta_global.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metaprograming/meta_scope.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metaprograming/metaprograming_class_module.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metaprograming/proc_lambda.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/postgreSQL/introduce.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rails4inAction/auth.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rails4inAction/db_active_record.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rails4inAction/devise_custom.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rails4inAction/pundit.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rails4inAction/test_way.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vagrant_hemingway/.bash_profile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vagrant_hemingway/WT-3299.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vagrant_hemingway/vagrant.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bdd-test-prescriptions-ebook/introduction.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bdd-test-prescriptions-ebook/rspec-over-view.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bdd-test-prescriptions-ebook/test_types.md" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/elasticsearch/4-searching-your-data.md" afterPath="$PROJECT_DIR$/elasticsearch/4-Searching.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/elasticsearch/CURD-configuring.md" afterPath="$PROJECT_DIR$/elasticsearch/2-CURD-configuring.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/elasticsearch/Concepts.md" afterPath="$PROJECT_DIR$/elasticsearch/1-Concepts.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/elasticsearch/Deep-CURD.md" afterPath="$PROJECT_DIR$/elasticsearch/3-Deep-CURD.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/elasticsearch/Elasticsearch.md" afterPath="$PROJECT_DIR$/elasticsearch/0-Elasticsearch.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BlurbWorkingSpace/WT-8699/WT-8699-debugging.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clean_coder/1-Professionalism.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elixir/2-ConcurrencyPrimitive.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elixir/3-OTP.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elixir/iex.ex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BlurbWorkingSpace/WT-8699.md" afterPath="$PROJECT_DIR$/BlurbWorkingSpace/WT-8699/WT-8699.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch/kibana" afterPath="$PROJECT_DIR$/elasticsearch/kibana" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bdd-test-prescriptions-ebook/tips.md" afterPath="$PROJECT_DIR$/bdd-test-prescriptions-ebook/tips.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BlurbWorkingSpace/ConnectSSH.md" afterPath="$PROJECT_DIR$/BlurbWorkingSpace/ConnectSSH.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BlurbWorkingSpace/PS-4999.md" afterPath="$PROJECT_DIR$/BlurbWorkingSpace/PS-4999.md" />
     </list>
     <ignored path="hardcore-rule.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -166,7 +140,7 @@
     <handled-path value="$PROJECT_DIR$/elasticsearch/kibana/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="700" />
+    <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -368,14 +342,15 @@
       <workItem from="1476592952920" duration="8258000" />
       <workItem from="1477318486336" duration="6630000" />
       <workItem from="1477414308078" duration="3454000" />
+      <workItem from="1479132711558" duration="30000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70126000" />
+    <option name="totallyTimeSpent" value="70156000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="700" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16428572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
