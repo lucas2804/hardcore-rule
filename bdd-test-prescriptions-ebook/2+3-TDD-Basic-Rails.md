@@ -29,35 +29,9 @@
 - A user can change a task's state to mark it as done
 -  A project can display its progress and status using the date projection we created in the last chapter.
 
-
-
-
-
 - RSpec call **match?** if expect...to && **does_not_match** if expect...not_to
 
 ![C2-TDD-Basic/test-flow.png](./images/C2-TDD-Basic/test-flow.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 #### RSpec Predefined Matchers
@@ -84,6 +58,8 @@ expect(actual).to satisfy {block}
 
 
 
+
+download from /ppreports/outgoing/TR-20091211.01.003.CSV to /data/paypal/20091211/USD/TR-20091211.01.003.CSV
 
 
 

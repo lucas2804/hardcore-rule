@@ -92,6 +92,7 @@ end
 
 ###Why author_markup was negative.
 
+####1 - Reproduce on console
 2) View markup_history and markup, check_created_at
     - Get list markup_id, no markup_histories
     - 84415 , 105585 - 3 markup histories, 181447 - no markup_histories
@@ -101,6 +102,11 @@ end
 4) Reproduce on vagrant_server: try to make author_markup be negative
     - rollback to 2012 markup.rb and still not create negative number.
 5) Check code where log tell this markup change to negative.
+
+6) @list_price - base_price can not make author_markup_usd became negative (def - in money.rb)
+7) add_markup can not make author_markup_usd became negative (Money.parse return Money.new($str, $currency))
+8) The only way update author_markup_usd after create (markup.author_markup_usd)
+9) Create wrong money then assign to markup (Money.new(0, currency, -500) will make cents_us negative)
 
 ```ruby
 @ebook = Ebook::Ebook.find 1
@@ -122,10 +128,16 @@ fail_markup.save
 fail_markup.errors
 
 fail_markup = Markup.create(:author_markup => negative_money, :author_markup_usd => negative_money, :markupable => ebook)
-
-
 reset_author_profit_usd
+
 ```
+
+####2 - Reproduce on hemingway
+
+1) open Charles, resend request make list_price < base_price. Still can not cause model prevent by `list_price_validity`
+
+2) Just create markup on BlurbBook
+
 ###SSH Info
 - WS - The same environment with PROD Link: http://ws.blurb.com/
 - ssh tle@oak-stage-worker01
@@ -135,3 +147,8 @@ sudo su - blurbapp
 cd $PROJ
 script/console
 bundle exec rake finance:accountant:calculate
+
+####Need change
+:auth_methods => ['keyboard-interactive']) -> fixing on ws
+
+session = Net::SSH.start('tle@oak-stage-worker01', 'tle', :password => "LeHuuT@i181", :auth_methods => ['keyboard-interactive'])
