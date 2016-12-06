@@ -67,5 +67,5 @@ Agent.get(agent, fn list -> list end)#["eggs", "beef"]
 
 - A GenServer is implemented in two parts: 
     1) the client API 
-    2) and the serer callbacks
+    2) and the server callbacks
 - There are 2 types or request: **sync-call** and **async-cast**
