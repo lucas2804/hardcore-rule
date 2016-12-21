@@ -9,7 +9,7 @@
 ###Concepts
 
 1) Processes
-2) Agent        : Simple warrapers around state 
+2) Agent        : Simple wrappers around state 
 3) GenServer    : **Generic servers** (processes) that encapsulate state, provide sync and async calls, support code reloading, and more
 4) GenEvent     : **Generic Event** managers that allow publishing events to multiple handlers.
 5) Task         : Asynchronous units of computation that allow spawning a process and potentially retrieving it's result at a later time
@@ -48,7 +48,23 @@ send pid, {:get, :hello, self()} #{:get, :hello, #PID<0.12>}
 
 ###II - Agent
 
-- Agents are simple wrappers around state, If all you want from a process is to keep state, agents are great fit.
+- Agents are processes, each bucket has a PID but it does not have a name.
+- We can name for an agent, But **we should never convert user input to atoms** because atoms are not garbage collected, never reclaimed, increase system memory.
+```elixir
+Agent.start_link(fn -> %{} end, name: :shopping)
+```
+- The **registry** each bucket needs to **monitor** 
+```elixir
+iex(1)> {:ok, pid} = KV.Bucket.start_link
+{:ok, #PID<0.120.0>}
+iex(2)> Process.monitor(pid)
+#Reference<0.0.3.846>
+iex(3)> Agent.stop(pid)
+:ok
+iex(4)> flush
+{:DOWN, #Reference<0.0.3.846>, :process, #PID<0.120.0>, :normal}
+
+```
 
 ```elixir
 {:ok, pid} = Agent.start_link(fn -> %{} end)
@@ -69,3 +85,18 @@ Agent.get(agent, fn list -> list end)#["eggs", "beef"]
     1) the client API 
     2) and the server callbacks
 - There are 2 types or request: **sync-call** and **async-cast**
+
+####call, cast or info?
+
+- **handle_call/3**: sync requests
+- **handle_cast/2**: asyn requests, when you dont care about reply.
+- **handle_info/2**: Must be used for all other messages a server may receive.
+
+####Monitors or links?
+
+- Links are bi-directional. If you link 2 processes and one of them craashes, the other side will crash too.
+- Monitors are uni-directional: Just only the monitoring process will receive notifications about the monitored one.
+
+- Briefly: Use links when you want linked crashes, and monitors when you just want to be informed or crashes, exits and so on.
+ 
+
