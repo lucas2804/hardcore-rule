@@ -1,38 +1,37 @@
-**You want to focus "What's an object is???" or "What does object do???"**
+#I - Introduction
 
-```In scope of BDD test, "What does object do" is more significantly. And customers focus on "What does object do" ```
+##About the gains
 
-- Cause developer too noob in communication so code is the best document and test still is the best document too -> So BDD
-Example: _**Given**_ some context, _**When**_ some event occurs, _**Then**_ I expect some outcome.
+```html
+- In a strict TDD process, new logic is added to the program only after a failing test is written to prompt the creation of the logic.
 
-**Build your code under test cover**
-- Take a list of the test cases before to void duplicate test cases.
-- Write fail test first -> write very simple code to pass -> refactor -> red -> green -> refactor...
-- _Minimal side effect_: One method just only does one thing.
-- High cohesion: code in the same unit is all related.
-- If some features really difficult to write tests, it often means your codebase is too interdependent.
+- About the gains when verify: Cause running the automation test is faster than verifying in the browser -> you will gain a little bit each try.
+- About the gains when refactor: have to switch to browser and blablabla.
+- When verify and refactor will run all isolate test without forget any testcase.
 
-- step1 Test always right, step2 If test maybe wrong -> just rollback step1 ahihi đồ ngok
- 
- **SCOPE**
- 
-- write test error conditions EVEN they are already covered in code, absolutely.
-- write test valid context EVEN they are already covered in code, should not be ignored
+- It's pretty bored when you have to switch to browser and verify, trust me it's really bored.
+```
 
-- ??? Test doubles: some features depending on "Third party or external" really hard to isolate -> Using Mocks and Stubs
+##II - Testing First Drives Design
 
-**DO NOT WRONG ASSUME**
+###1 - Steps to success with TDD(page 15)
 
-- TDD with Unit-testing is good, right?
-- But still not be able to replace acceptance testing from QA.
-- But won't solve all of your development problems.
+```html
+1) Create a test. The test should be short and test for one thing in your code. The test should run automatically.
 
-```The purpose of testing is to verify that my program is correct. I can never prove correctness with 100 percent certainty. Therefore, testing has no value. BDD to combat this attitude ```
+2) Make sure the test fails. Verifying the test failure before you write code helps ensure that the test really does what you expect
 
-```Some fun: I think that BDD will be a revolution as OOP, FP. It will be ROP(Release Oriented Programing) ```
+3) Write the simplest code that could possibly make the test pass. Don't worry about good code yet. Sometimes, write just enough code to clear the current error.
 
+4) After the test passes, refactor to improve the code. Clean up duplication. Optimize. Create new abstractions. Refactoring is a key part of design, so don't skip this. Remember to run the tests agian to make sure you haven'y changed any behavior
+=> REPEAT UNTIL DONE.
+```
 
+###Prescription1 in Prescriptions.md
+###Prescription2
 
+##III - Behavior-driven development (BDD)
 
-
-
+```html
+- The purpose of testing is: "to verify that my program is correct. I can never prove correctness with 100% percent certainty. Therefor, testing has no value" (Behavior-driven development and RSpec were created to combat this attitude)
+```

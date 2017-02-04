@@ -1,0 +1,58 @@
+<li class="book-view ebook_ebook" id="ebook_ebook_610426">
+    <div class="book-cover-image">
+        <div class="book-image">
+            <a href="http://www.blurb.com/my/ebooks/p9a84b04852da511a098d"><img alt="T"
+                                                                                src="http://blurbprod1000.s3.amazonaws.com/a417a91627c34b2eb31cf6fb7a0ab3a6/23cb1008-f1f3-a62a-ff2c-f0fad895d686/T.jpeg"></a>
+            <a href="http://www.blurb.com/ebooks/reader.html?e=610426" class="preview-ribbon-sm lnk-preview-banner">Preview</a>
+        </div>
+        <div class="management-links">
+
+            <a href="http://www.blurb.com/ebooks/610426" class="bookAction">Bookstore Preview</a>
+        </div>
+    </div>
+    <div class="book-actions">
+        <h4>
+            <a href="http://www.blurb.com/my/ebooks/p9a84b04852da511a098d">Test Book (ebook)</a>
+        </h4>
+        <h5></h5>
+        <div class="bookOptions">
+            <a href="/my/dashboard/delete_ebook/610426?redirect_url=%2Fmy%2Fdashboard" class=" delete-action"
+               onclick="if (confirm('You are about to delete your book from all of the places your book is sold.\n\nAre you sure?')) { var f = document.createElement('form'); f.style.display = 'none'; this.parentNode.appendChild(f); f.method = 'POST'; f.action = this.href;var m = document.createElement('input'); m.setAttribute('type', 'hidden'); m.setAttribute('name', '_method'); m.setAttribute('value', 'delete'); f.appendChild(m);var s = document.createElement('input'); s.setAttribute('type', 'hidden'); s.setAttribute('name', 'authenticity_token'); s.setAttribute('value', 'sXcDyquJi0I77pSRj+F3YOzgyXapv05Fpm+ciKsSVVY='); f.appendChild(s);f.submit(); };return false;">delete</a>
+        </div>
+        <div class="editFaqLink" style="visibility:hidden">
+            <a href="/my/dashboard">Why can't I edit this?</a>
+        </div>
+        <div class="bookOrderEdit clearfix">
+            <a href="#" class="button btn-ebook-download primary send-to-ios" data-ebook-id="610426">Download (send
+                link)</a>
+            <a href="http://www.blurb.com/my/ebooks/610426" class="btn-ebook-settings button bookAction">Sell My
+                Book</a>
+        </div>
+    </div>
+    <div class="book-info">
+        <div class="bookCreationInfo">January 08 2017, 11:45 AM PST</div>
+        <div class="bookStatus">
+            <strong>Status</strong>
+            Published, Not Listed in Bookstore
+        </div>
+    </div>
+</li>
+<div class="share_popup_wrapper ebook-email-link-wrapper">
+    <div id="share_ebook_email_popup_610426" class="share_book_popup email-link" style="">
+        <div class="dialog_title">
+            <a href="#" class="close" onclick="$j('#share_ebook_email_popup_610426').toggle();return false;">×</a>
+            <h5>Send link to download</h5>
+        </div>
+        <div class="dialog_content">
+            <p>Send an email with a link to download on your Kindle®, iPad®, or Android device.</p>
+            <input type="text" id="email-me" name="email-me" class="emailMe" value="sample@example.com"
+                   onfocus="if (this.value == 'sample@example.com') this.value='';"
+                   onblur="if (this.value=='') this.value='sample@example.com';">
+            <a href="#" class="button primary" id="email-me-link-btn"
+               onclick="new Ajax.Request('/ebook/ebooks/610426/email', {asynchronous: true, evalScripts: true, method:'post', postBody:'to='+$(this).up().down('input').value }); $j('#share_ebook_email_popup_610426').slideToggle();return false;">SEND</a>
+        </div>
+    </div>
+</div>
+
+
+WT-8714 Download(send link) button for ebooks hidden at bottom, because .main in dashboard.css is hidden
