@@ -21,8 +21,8 @@ Requirements:
 
 ####2 - Several reasons
 - There are several reasons why it's valuable to have a test like this one:
-1) It forces us to think of our feature in terms of behaviors(Not all features have UI, but where they do, we will always specify the correct behaviors)
-2) Eventually, We still need a test that can cover a group of unit-test to prevent bugs between unit-test.
+- 1) It forces us to think of our feature in terms of behaviors(Not all features have UI, but where they do, we will always specify the correct behaviors)
+- 2) Eventually, We still need a test that can cover a group of unit-test to prevent bugs between unit-test.
 
 ##II - Automation test Example.
 
@@ -47,9 +47,11 @@ end
 ####2 - Test kind of controller, business logic
 
 - Three locations are commonly used for business logic that responds to user input(pass the params hash to ActiveRecord#create)
-1) Put the extra logic **in the controller**. This is Rails core team's preferred method.(The author feel right 60% page 60/342)
-2) Put the extra logic **in the model**. Make model fat, more complicated(70%)
-3) **Break business logic from controller to a class which** encapsulate the logic and workflow(90%). In this case, We will have a lot of little classes but never mind.
+
+
+- 1) Put the extra logic **in the controller**. This is Rails core team's preferred method.(The author feel right 60% page 60/342)
+- 2) Put the extra logic **in the model**. Make model fat, more complicated(70%)
+- 3) **Break business logic from controller to a class which** encapsulate the logic and workflow(90%). In this case, We will have a lot of little classes but never mind.
 
 #####2.1 Example for case 3: Break logic from controller to another class.
 ```ruby

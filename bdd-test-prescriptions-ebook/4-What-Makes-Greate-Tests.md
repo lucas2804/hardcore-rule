@@ -2,11 +2,11 @@
 
 ##I - Five Criteria to evaluate test quality(SWIFT)
 
-1) [S]traightforward
-2) [W]ell defined
-3) [I]ndependent
-4) [F]ast
-5) [T]ruthful
+- 1) [S]traightforward
+- 2) [W]ell defined
+- 3) [I]ndependent
+- 4) [F]ast
+- 5) [T]ruthful
 
 ###[S]traightforward
 

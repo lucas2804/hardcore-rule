@@ -14,13 +14,13 @@
 
 ###1 - Steps to success with TDD(page 15)
 
-1) Create a test. The test should be short and test for one thing in your code. The test should run automatically.
+- 1) Create a test. The test should be short and test for one thing in your code. The test should run automatically.
 
-2) Make sure the test fails. Verifying the test failure before you write code helps ensure that the test really does what you expect
+- 2) Make sure the test fails. Verifying the test failure before you write code helps ensure that the test really does what you expect
 
-3) Write the simplest code that could possibly make the test pass. Don't worry about good code yet. Sometimes, write just enough code to clear the current error.
+- 3) Write the simplest code that could possibly make the test pass. Don't worry about good code yet. Sometimes, write just enough code to clear the current error.
 
-4) After the test passes, refactor to improve the code. Clean up duplication. Optimize. Create new abstractions. Refactoring is a key part of design, so don't skip this. Remember to run the tests agian to make sure you haven'y changed any behavior
+- 4) After the test passes, refactor to improve the code. Clean up duplication. Optimize. Create new abstractions. Refactoring is a key part of design, so don't skip this. Remember to run the tests agian to make sure you haven'y changed any behavior
 => REPEAT UNTIL DONE.
 
 ###Prescription1 in Prescriptions.md

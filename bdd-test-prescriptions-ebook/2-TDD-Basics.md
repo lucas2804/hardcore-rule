@@ -7,8 +7,8 @@
 
 ####2) let lazy load
 
-1) Use as local variable (often use in describe context)
-2) The first call to let variable invokes the block and **caches the result**
+- 1) Use as local variable (often use in describe context)
+- 2) The first call to let variable invokes the block and **caches the result**
 
 ####3) Matcher
 - be_a_user, be_an_apple will looking for user? apple? than a_user? an_apple?
@@ -23,6 +23,6 @@ expect(projects).to have_key(:id)
 
 - I like to take a moment before I write a test to think about what the test needs. The typical test structure has three parts:
 
-1) **Given**: What data does the test need? 
-2) **When**: Which action to trigger?
-3) **Then**: Which result to expect?
+- 1) **Given**: What data does the test need? 
+- 2) **When**: Which action to trigger?
+- 3) **Then**: Which result to expect?
