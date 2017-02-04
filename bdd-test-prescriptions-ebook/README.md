@@ -1,8 +1,8 @@
 #I - Introduction
-####[2-TDD-Basics](./2-TDD-Basics.md)
-####[3-TDD-in-Rails](./3-TDD-in-Rails.md)
-####[4-What-Makes-Greate-Tests](./4-What-Makes-Greate-Tests.md)
-####[5-1-Testing-Model-in-Rails](./5-1-Testing-Model-in-Rails.md)
+####[Chapter2-TDD-Basics](./2-TDD-Basics.md)
+####[Chapter3-TDD-in-Rails](./3-TDD-in-Rails.md)
+####[Chapter4-What-Makes-Greate-Tests](./4-What-Makes-Greate-Tests.md)
+####[Chapter5-1-Testing-Model-in-Rails](./5-1-Testing-Model-in-Rails.md)
 
 ##About the gains
 
