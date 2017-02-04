@@ -11,14 +11,12 @@
 2) The first call to let variable invokes the block and **caches the result**
 
 ####3) Matcher
-```html
 - be_a_user, be_an_apple will looking for user? apple? than a_user? an_apple?
 expect(project).to be_done <=> expect(project.done?).to be_truthy
 
--  have_key(:id) will call has_key?(:key) on the target
+- have_key(:id) will call has_key?(:key) on the target
 expect(projects).to have_key(:id) 
 
-```
 - http://www.rubydoc.info/github/rspec/rspec-expectations/RSpec/Matchers
 
 ###2) Before write a test

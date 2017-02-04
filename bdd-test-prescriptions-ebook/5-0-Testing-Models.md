@@ -70,11 +70,9 @@ end
 - One symptom is a set of common attributes that are always used together.
 - Another symotom is a group of methods that all share a prefix or a suffix such as: logger_init, logger_print...
 
-```html
-Some benefits:
+- Some benefits:
     1) It's easy when you need to add middle_name, title_name, complexity_name
     2) It's easy to test cause NameService no longer has a dependency on the database.
-```
 
 ```ruby
 # Model's getting fat.
