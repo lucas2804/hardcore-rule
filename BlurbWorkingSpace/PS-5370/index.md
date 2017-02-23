@@ -26,3 +26,7 @@ The book should be there but the dashboard is empty
 Expected results: restore book in customer's dashboard
 Please let me know if you need more information. Thanks
 ```
+
+```ruby
+products = Product.all(:conditions => ['first_purchased_at IS NULL AND guts.created_at < ? AND products.id IN (189518, 189519) AND products.updated_at < ?', 15.days.ago, 15.days.ago], :include => :guts)
+```
