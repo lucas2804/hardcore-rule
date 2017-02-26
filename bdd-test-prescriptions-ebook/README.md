@@ -4,8 +4,17 @@
 ####[Chapter4-What-Makes-Greate-Tests](./4-What-Makes-Greate-Tests.md)
 ####[Chapter5-0-Testing-Models](./5-0-Testing-Models.md)
 ####[Chapter5-1-Testing-Model-in-Rails](./5-1-Testing-Model-in-Rails.md)
+####[Chapter6-Adding-Data-To-Test](./6-Adding-Data-To-Tests.md)
 
-##About the gains
+####[Chapter7-Using-TestDoubles-Mocks-Stubs](./7-Using-TestDoubles-Mocks-Stubs.md)
+
+####[Chapter8-Testing-Controllers-and-Views](./8-Testing-Controllers-and-Views.md)
+
+####[Chapter9-Minitest](./9-Minitest.md)
+
+####[Chapter10-Integration-Testing-with-Capybara-and-Cucumber](./10-Integration-Testing-with-Capybara-and-Cucumber.md)
+
+
 
 - In a strict TDD process, new logic is added to the program only after a failing test is written to prompt the creation of the logic.
 
