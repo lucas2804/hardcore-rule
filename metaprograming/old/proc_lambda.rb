@@ -61,7 +61,7 @@ double(proc) # return 20
 #               Bound to an object, Scope in object's scope
 #               Unbound from their scope and "rebound" to another object
 #
-# 5) In methods, lambdas "return" word returns from the callable object
-#    In procs and blocks "return" word returns from original context
+# 5) In methods, lambdas "return" will returns from the callable object
+#    In procs and blocks "return" will returns from original context
 #    -> methods & lambdas are almost as strict (should be used)
 

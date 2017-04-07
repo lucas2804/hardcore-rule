@@ -10,7 +10,7 @@ end
 
 # ------------- BLOCK --------------
 # 1 - my_method(free_param, *array_param, &block_param)
-#     &block_param : Ruby will expect that is kind of "Block"
+#     & - (&block) : Ruby will expect that is kind of "Block"
 # 2 - yield : no need "&block" param
 #     my_block.call <=> yield
 # 3 - "block" are meant to be used "always together with methods"
@@ -24,8 +24,8 @@ end
 # Explain: "run my_method" && "store put... into &my_block"
 # Need 2 param "name && action" from "my_block.call('Miracle', 'Fuck it')"
 my_method do |name, action|
-  puts "We're in the block!!!!!"
-  puts "Ask #{name} -- #{action}"
+  puts "---We're in the block!!!!!"
+  puts "---Ask #{name} -- #{action}"
 end
 
 # Call my_method again, alternative way
@@ -36,8 +36,8 @@ my_method { |name, action|
 #
 # Result
 # "We're in the method, about to invoke your block!"
-# "We're in the block!!!!!"
-# "Ask Miracle  -- Fuck it"
+# "---We're in the block!!!!!"
+# "---Ask Miracle -- Fuck it"
 # "We're back in the method!"
 #
 # Note:
@@ -52,7 +52,9 @@ my_method do
   greeting = "You can call me cause you've DEFINE me before"
   error_greet = "Will raise an error cause you NOT define me"
 end
-puts greeting     # Note: Unless with normal method, CAN NOT ACCESS param declared outsite
+puts greeting #"You can call me cause you've DEFINE me before"
+puts error_greet
+# Note: Unless with normal method, CAN NOT ACCESS param declared outsite
 # puts error_greet  # NameError: undefined local variable or method `error_greet' for main:Object
 
 

@@ -1,8 +1,8 @@
 ##Staging WS.blurb.com
 - WS - The same environment with PROD Link: http://ws.blurb.com/
 - ssh tle@oak-stage-worker01
-- psql -h  oak-stage-db01.blurb.com -U blurby  -d blurb_staging (MR.fred)
-
+- psql -h  oak-stage-db01.blurb.com -U blurby  -d blurb_staging (fred)
+- psql -h hq-master-db01.eng.blurb.com -U blurby -d blurb_staging 
 - db master unknown
 
 ##Production
