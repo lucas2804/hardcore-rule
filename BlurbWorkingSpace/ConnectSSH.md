@@ -1,52 +1,21 @@
-##Staging WS.blurb.com
-- WS - The same environment with PROD Link: http://ws.blurb.com/
-- ssh tle@oak-stage-worker01
-- psql -h  oak-stage-db01.blurb.com -U blurby  -d blurb_staging (fred)
-- psql -h hq-master-db01.eng.blurb.com -U blurby -d blurb_staging 
-- db master unknown
+##Master server
+- SSH: ssh tle@oak-stage-worker01
+    1) password: LeHuuT@i181
+    2) sudo su - blurbapp
+    3) cd $PROJ
+- Database: psql -h hq-master-db01.eng.blurb.com -U blurby -d blurb_staging 
+    1) password: fred
 
-##Production
-- ssh tle@hq-master-worker01.eng.blurb.com
-- psql -h hq-master-db01.eng.blurb.com -U blurby -d blurb_staging (MR.fred)
-psql -h oak-bi-postgres02.blurb.com -d blurb_production -U tle
-web env
+##Production server
 
-[11:06]  
-- prod: blurb.com
+- psql -h oak-bi-postgres02.blurb.com -d blurb_production -U tle
 
-[11:06]  
-- staging: ws.blurb.com
+o = Order.find 1128241
+so = o.shippable_sub_orders.first
+so.shipped_to
+so.matched_holding_bin_rules.first.holding_bin_rule
 
-[11:06]  
-- master: master.eng.blurb.com
 
-[11:07]  
-db:
 
-[11:08]  
-- prod (read only): oak-bi-postgres02
 
-[11:08]  
-- master: unknow
 
-[11:08]  
-server (ssh):
-
-[11:09]  
-- ws: ssh <username>@oak-stage-worker01
-
-[11:09]  
-- master: ssh <username>@hq-master-worker01.eng.blurb.com
-- master: ssh tle@hq-master-worker01.eng.blurb.com
-
-[11:10]  
-ex: ssh tle@oak-stage-worker01
-
-[11:10]  
-sudo su - blurbapp
-
-[11:10]  
-cd $PROJ
-
-[11:12]  
-log:
